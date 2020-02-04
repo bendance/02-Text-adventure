@@ -18,4 +18,3 @@ How to play:
     -The game will tell you how many moves you make
 
     -When you find all five cats the game will end
-    
