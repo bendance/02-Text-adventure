@@ -1,0 +1,251 @@
+{
+	"KDSTART": {
+	  "name": "Kitty Dungeon Entrance",
+	  "desc": "You stand outside of the dungeon. There is a large unlocked door in front of you. ",
+	  "exits": [
+		{
+		  "exit": "NORTH",
+		  "target": "FOYER"
+		},
+		{
+		  "exit": "SOUTH",
+		  "target": "LEAVE"
+		}
+	  ],
+	  "items": []
+	},
+	"FOYER": {
+	  "name": "Kitty Dungeon Foyer",
+	  "desc": "A diamond chandelier hangs from the ceiling accompanied by two cascading stairs. There are closed doors in all four directions.",
+	  "exits": [
+		{
+		  "exit": "NORTH",
+		  "target": "GARDEN"
+		},
+		{
+		  "exit": "SOUTH",
+		  "target": "KDSTART"
+		},
+		{
+		  "exit": "WEST",
+		  "target": "PARLOR"
+		},
+		{
+		  "exit": "EAST",
+		  "target": "KITCHEN"
+		}
+	  ],
+	  "items": []
+	},
+	"GARDEN": {
+	  "name": "Indoor Garden",
+	  "desc": "A vibrant scene of greenery fills up the room. You see exotic flowers, trees, and even birds. There are closed doors in all four directions.",
+	  "exits": [
+		{
+		  "exit": "NORTH",
+		  "target": "BEDROOM"
+		},
+		{
+		  "exit": "SOUTH",
+		  "target": "FOYER"
+		},
+		{
+		  "exit": "WEST",
+		  "target": "THEATRE"
+		},
+		{
+		  "exit": "EAST",
+		  "target": "DINING"
+		}
+	  ],
+	  "items": [
+		{
+		  "item": "BURMESE KITTY",
+		  "desc": "You see a BURMESE KITTY in the bushes.",
+		  "take": "You take the cat."
+		}
+	  ]
+	},
+	"PARLOR": {
+	  "name": "The Parlor",
+	  "desc": "A collection of lavish sofas and rugs fill the room. You discover a closed door to the NORTH.",
+	  "exits": [
+		{
+		  "exit": "NORTH",
+		  "target": "THEATRE"
+		},
+		{
+		  "exit": "EAST",
+		  "target": "FOYER"
+		}
+	  ],
+	  "items": []
+	},
+	"KITCHEN": {
+	  "name": "Kitty Kitchen",
+	  "desc": "You enter an antique kitchen filled with the aroma of kitty litter. You notice a bump in the rug under your feet. You discover a closed door to the NORTH. ",
+	  "exits": [
+		{
+		  "exit": "WEST",
+		  "target": "FOYER"
+		},
+		{
+		  "exit": "NORTH",
+		  "target": "DINING"
+		},
+		{
+		  "exit": "DOWN",
+		  "target": "SPICE"
+		}
+	  ],
+	  "items": []
+	},
+	"THEATRE": {
+	  "name": "Movie Theatre",
+	  "desc": "For an older mansion, it's strange that there is a full fledged movie theatre inside. There is an ominus stone door to the NORTH along with normal looking doors to the SOUTH and EAST.",
+	  "exits": [
+		{
+		  "exit": "NORTH",
+		  "target": "DUNGEON"
+		},
+		{
+		  "exit": "EAST",
+		  "target": "GARDEN"
+		},
+		{
+		  "exit": "SOUTH",
+		  "target": "PARLOR"
+		}
+	  ],
+	  "items": []
+	},
+	"DINING": {
+	  "name": "Dining Room",
+	  "desc": "A long table is topped with various fish. You see a steel door to the NORTH along with two regular doors facing WEST and SOUTH. ",
+	  "exits": [
+		{
+		  "exit": "NORTH",
+		  "target": "SENSORY"
+		},
+		{
+		  "exit": "WEST",
+		  "target": "GARDEN"
+		},
+		{
+		  "exit": "SOUTH",
+		  "target": "KITCHEN"
+		}
+	  ],
+	  "items": [
+		{
+		  "item": "TABBY KITTY",
+		  "desc": "You see a TABBY KITTY on the chair.",
+		  "take": "You take the cat."
+		}
+	  ]
+	},
+	"BEDROOM": {
+	  "name": "The Master Suite",
+	  "desc": "He is watching you. Just your typical bedroom. There are two steel doors to the WEST and EAST and a normal door facing SOUTH.",
+	  "exits": [
+		{
+		  "exit": "EAST",
+		  "target": "SENSORY"
+		},
+		{
+		  "exit": "WEST",
+		  "target": "DUNGEON"
+		},
+		{
+		  "exit": "SOUTH",
+		  "target": "GARDEN"
+		}
+	  ],
+	  "items": [
+		{
+		  "item": "CALICO KITTY",
+		  "desc": "You see a CALICO KITTY on the bed.",
+		  "take": "You take the cat."
+		}
+	  ]
+	},
+	"DUNGEON": {
+	  "name": "The Kitty Dungeon",
+	  "desc": "The walls are made of stone and you hear tortured meows from below. You see a trap door headed DOWN.",
+	  "exits": [
+		{
+		  "exit": "EAST",
+		  "target": "BEDROOM"
+		},
+		{
+		  "exit": "SOUTH",
+		  "target": "THEATRE"
+		},
+		{
+		  "exit": "DOWN",
+		  "target": "LOWER"
+		}
+	  ],
+	  "items": []
+	},
+	"SENSORY": {
+	  "name": "Sensory Deprivation Chamber",
+	  "desc": "The room grows dark. There no doors leading out of this room. You feel yourself disassociating with reality as the darkness consumes you. This must be where they torture the kitties.",
+	  "exits": [
+		{
+		  "exit": "WEST",
+		  "target": "BEDROOM"
+		},
+		{
+		  "exit": "SOUTH",
+		  "target": "DINING"
+		}
+	  ],
+	  "items": []
+	},
+	"SPICE": {
+	  "name": "The Catnip Room",
+	  "desc": "So this is where they keep their stash.",
+	  "exits": [
+		{
+		  "exit": "UP",
+		  "target": "KITCHEN"
+		}
+	  ],
+	  "items": [
+		{
+		  "item": "PERSIAN KITTY",
+		  "desc": "You see one PERSIAN KITTY listening to the Grateful Dead.",
+		  "take": "You take the cat."
+		}
+	  ]
+	},
+	"LOWER": {
+	  "name": "Kitty Jail",
+	  "desc": "The four walls of this jail are padded.",
+	  "exits": [
+		{
+		  "exit": "UP",
+		  "target": "DUNGEON"
+		}
+	  ],
+	  "items": [
+		{
+		  "item": "SIBERIAN KITTY",
+		  "desc": "There is one lone-shaking SIBERIAN KITTY, locked away in a stray jacket. Be careful around this one.",
+		  "take": "You take the kitty."
+		}
+	  ]
+	},
+	"LEAVE": {
+	  "name": "car again.",
+	  "desc": "You stand by your car and wonder why you're doing this.",
+	  "exits": [
+		{
+		  "exit": "NORTH",
+		  "target": "KDSTART"
+		}
+	  ],
+	  "items": []
+	}
+}

@@ -1,0 +1,37 @@
+{
+   "BURMESE KITTY": {
+     "exits": {},
+     "actions": {
+       "pet": "The kitty purrs!"
+     },
+     "points": 1
+   },
+   "CALICO KITTY": {
+     "exits": {},
+     "actions": {
+       "pet": "The kitty purrs!"
+     },
+     "points": 1
+   },
+   "TABBY KITTY": {
+     "exits": {},
+     "actions": {
+       "pet": "The kitty purrs!"
+     },
+     "points": 1
+   },
+   "PERSIAN KITTY": {
+     "exits": {},
+     "actions": {
+       "pet": "The kitty purrs!"
+     },
+     "points": 1
+   },
+   "SIBERIAN KITTY": {
+     "exits": {},
+     "actions": {
+       "pet": "The kitty purrs!"
+     },
+     "points": 1
+   }
+}
